@@ -1,0 +1,30 @@
+<h1>DAILY ICE PRODUCTION REPORT for <strong><%= @company.name %></strong></h1>
+
+<table>
+  <thead>
+    <th>Factory</th>
+    <th>Camera</th>
+    <th>No. of Blocks today</th>
+  </thead>
+  <tbody>
+    <%= @total_blocks = 0 %>
+    <% @company.ice_factories.each do |ice_factory| %>
+      <% ice_factory.cameras.each do |camera| %>
+        <% camera.events.each do |event| %>
+          <tr>
+            <td><%= ice_factory.name %></td>
+            <td>
+              <%= camera.name %>
+            </td>
+            <td><%= event.numberOfIceBlocks %></td>
+            <%= @total_blocks += event.numberOfIceBlocks %>
+          </tr>
+        <% end %>
+      <% end%>
+    <% end %>
+    <tr>
+      <td colspan="2"><strong>Total</strong></td>
+      <td><%= @total_blocks %></td>
+    </tr>
+  </tbody>
+</table>

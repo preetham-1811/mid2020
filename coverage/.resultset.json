@@ -1,0 +1,94 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/younten/Project_WAE/ForWAE/mid2020/app/models/user.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/younten/Project_WAE/ForWAE/mid2020/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/younten/Project_WAE/ForWAE/mid2020/app/models/camera.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/younten/Project_WAE/ForWAE/mid2020/app/models/company.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/younten/Project_WAE/ForWAE/mid2020/app/models/event.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/younten/Project_WAE/ForWAE/mid2020/app/models/ice_factory.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/younten/Project_WAE/ForWAE/mid2020/app/controllers/home_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/younten/Project_WAE/ForWAE/mid2020/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/home/younten/Project_WAE/ForWAE/mid2020/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/home/younten/Project_WAE/ForWAE/mid2020/app/helpers/home_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      }
+    },
+    "timestamp": 1633610684
+  }
+}

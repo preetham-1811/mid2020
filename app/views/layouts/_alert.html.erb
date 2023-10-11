@@ -1,0 +1,9 @@
+<% if flash[:error] %>
+  <div style="color: red;">
+    <%= flash[:error] %>
+  </div>
+<% elsif flash[:alert] %>
+  <div style="color: orange;">
+    <%= flash[:alert] %>
+  </div>
+<% end %>
